@@ -1,0 +1,187 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(153, 120, 120);
+}
+
+ul > li{
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(235, 217, 217);
+}
+
+p{
+    font-weight: 700;
+}
+
+.container{
+    width: 850px;
+    margin: 0 auto;
+}
+
+.page-header{
+    background-image: url("../img/header-tedi.JPG");
+    border: 5px solid rgb(235, 217, 217);
+    
+}
+
+.page-title-intro{
+    filter: progid:DXImageTransform.Microsoft.DropShadow(offX=-31, offY=15, color=#000000, positive=true);
+text-shadow:-31px 15px 2px rgba(0,0,0,1);
+-webkit-text-shadow:-31px 15px 2px rgba(0,0,0,1);
+-moz-text-shadow:-31px 15px 2px rgba(0,0,0,1);
+}
+
+.page-text-intro{
+    filter: progid:DXImageTransform.Microsoft.DropShadow(offX=-31, offY=15, color=#000000, positive=true);
+text-shadow:-31px 15px 2px rgba(0,0,0,1);
+-webkit-text-shadow:-31px 15px 2px rgba(0,0,0,1);
+-moz-text-shadow:-31px 15px 2px rgba(0,0,0,1);
+}
+
+.photo-header{
+    width: 400px;
+}
+
+.intro{
+    padding: 20px 0px 0px 50px;
+    
+    width: 190px;
+    
+   
+
+}
+
+.intro h1, p{
+    color: rgb(235, 217, 217);
+    
+}
+
+.page-pchotos-intro{
+    padding: 0px 0px 15px 50px;
+    opacity: 0.9;
+    
+}
+
+.where{
+    padding-left:40px;
+    color: rgb(235, 217, 217);
+    
+}
+
+.block1-text{
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+
+.imges{
+    border-radius: 50%;
+    width: 140px;
+    border: 3px solid rgb(235, 217, 217);;
+}
+
+
+.slide-my_lives{
+    justify-content: space-between;
+    display: flex;
+}
+
+.slide-my_live{
+    text-align: center;
+}
+
+
+.page-article{
+    border-bottom: 3px solid white;
+}
+
+.page-aside{
+    margin-bottom: 60px;
+}
+
+.list{
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 15px solid lightgrey;
+    color:lightgrey;
+    font-size: 20px;
+}
+
+.pink{
+    border-color: pink;
+    color:pink;
+}
+
+.goald{
+    border-color: rgb(230, 174, 20);
+    color: rgb(230, 174, 20);
+}
+
+.block-footer{
+    justify-content:space-around;
+    display: flex;
+}
+
+.block-footer p {
+    color:lightgray;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 960px;
+        margin: 0 auto;
+        background-color: rgb(153, 120, 120);
+    }
+}
+
+@media screen and (max-width:992px){
+    .container{
+        width: 798px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:798px){
+    .container{
+        width: 576px;
+        margin: 0 auto;
+    }
+
+    .photo-header{
+        width: 380px;
+    }
+    .slide-my_lives{
+        flex-direction: column;
+    }
+    .page-header{
+        background-position: center;
+    }
+    .intro{
+        opacity:0.9;
+    }
+}
+
+@media screen and (max-width:576px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .photo-header{
+        width: 250px;
+    }
+    .block-footer p{
+        font-size:14px
+    }
+    .page-header{
+        background-position: top center;
+    }
+ 
+}
